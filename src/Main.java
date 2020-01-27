@@ -35,8 +35,8 @@ public class Main {
         }
 
         for(int i=0; i<array.length; i++) {
-            for (int j = 0; j < arrayClone.length; j++) {
-                if (array[i] == arrayClone[j]) {
+            for (int j = 0; j<arrayClone.length; j++) {
+                if (array[i] == arrayClone[j] && i<j) {
                     System.out.println(array[i] + " and " + arrayClone[i] + " are duplicates");
                 }
             }
